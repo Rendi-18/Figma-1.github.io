@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  min-height: 1500px;
+}
+
+/* Utilities */
+.bg-white {
+  background-color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fs-extra {
+  font-size: 40px !important;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* banner */
+.banner {
+  height: 400px;
+  background-image: url("AR1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* port */
+.port {
+  height: 10vw;
+  background-image: url("AR2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero {
+  background-image: url("AR3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 768px) {
+  .port {
+    height: 20vw;
+  }
+
+  .text-desc {
+    text-align: center !important;
+    font-size: 35px !important;
+  }
+
+  small {
+    text-align: center !important;
+  }
+
+  .text-fit {
+    text-align: center !important;
+  }
+
+  .m-custom {
+    margin-top: 20px !important;
+  }
+}
